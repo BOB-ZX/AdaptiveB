@@ -7,7 +7,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch import Tensor
 
-from DWT_IDWT.DWT_IDWT_layer import DWT_2D, IDWT_2D
+from .DWT_IDWT.DWT_IDWT_layer import DWT_2D, IDWT_2D
 
 
 class PairWaveletBatchTransform(nn.Module):
